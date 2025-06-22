@@ -1,0 +1,20 @@
+.footerWrapper {
+  position: fixed;
+  bottom: 0;
+  background-color: #f8f9fa;
+  padding: 0 2rem;
+  width: 100%;
+  border-top: 1px solid #ddd;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.rightText {
+  font-style: italic;
+}

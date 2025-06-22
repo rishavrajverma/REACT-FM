@@ -1,12 +1,13 @@
-import Login from "../componentes/Login";
-import Home from "../componentes/Home";
+import Login from "./Login";
+import Customer from "./Customer";
 
 const pagesData = [
   {
-    path: "",
-    element: <Home />,
-    title: "home",
+    path: "customer",
+    element: <Customer />,
+    title: "customer",
   },
+
   {
     path: "login",
     element: <Login />,
